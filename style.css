@@ -1,0 +1,112 @@
+* {
+    font-family: "Sour Gummy", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: yellowgreen;
+}
+h1 i{
+    color: rgb(255, 3, 3);
+}
+:root {
+    --x: rgb(255, 0, 0);
+}
+
+#logo {
+    width: 200px;
+    height: 100px;
+}
+#btn:hover{
+         background-color: white;
+         color: var(--x);
+         border-color: var(--x);
+}
+
+#BUTTON {
+    background-color: var(--x);
+    color: rgb(251, 4, 4);
+}
+#BUTTON:hover {
+    background-color: white;
+    color: var(--x);
+    border-color: var(--x);
+}
+.welcome button{
+    margin-left: 100px;
+    color: white;
+    margin-left: 20px;
+}
+.welcome{
+    margin-left: 150px;
+    color: white;
+    margin-bottom: 300px;
+    margin-top: 100px;
+    
+}
+#welcome h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+#welcome h1{
+    font-size: 100px;
+}
+#main{
+    background-image: url("https://www.shutterstock.com/image-vector/mobile-phone-abstract-vector-closeup-260nw-1188009991.jpg");
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+#products{
+    background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?cs=srgb&dl=pexels-pixabay-235985.jpg&fm=jpg");
+   
+}
+@media screen and (max-width:996px;) 
+{
+    #welcome h4{
+          font-size: 20px;
+    }
+}
+#VIEW-WORK{
+    border-color: white;
+    color: white;
+}
+#VIEW-WORK:hover{
+    background-color: white;
+    color: var(--x);
+}
+.about{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO1lPhQghU3bg9e1d82tO2rg172RnehGfqxw&s");
+}
+#about{
+    text-align: justify;
+}
+#service{
+    background-image: url("https://t3.ftcdn.net/jpg/01/23/71/22/360_F_123712281_x3FRKkfGpCnvOJnS6dH6504ERFAQxKBk.jpg");
+}
+.icon-set{
+    display: flex;
+    justify-content: center;
+    margin-top: 3% ;
+    align-items: center;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    margin: 0px 15px;
+}
+.icon i{
+    color: black;
+    font-size: 30px;
+}
+.icon:hover{
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to bottom right,rgb(0, 0, 0),rgb(77, 255, 0));
+    animation: shake 2s;
+}
